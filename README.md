@@ -2,7 +2,7 @@ Welcome to SendGrid + ATK add-on. With `atk4/sendgrid` you can integrate your ap
 
 ## Features
 
--   Implements `Outbox` protocol, so any application or module that needs to send out any type of information can use class `\atk4\sendgrid\Outbox` to schedule and send out messages. 
+-   Implements `Outbox` protocol (https://github.com/atk4/protocols), so any application or module that needs to send out any type of information can use class `\atk4\sendgrid\Outbox` to schedule and send out messages. 
 -   Contains `MailTemplate` model which is linked up to https://sendgrid.com/docs/API_Reference/Web_API_v3/Transactional_Templates/templates.html for storing your templates in SendGrid itself.
 -   Support for updating deliverability progress in the `Outbox`
 
